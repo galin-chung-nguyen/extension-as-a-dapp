@@ -1,11 +1,11 @@
 {
   "extensionDescription": {
-    "description": "Extension description",
-    "message": "Chrome extension boilerplate developed with Vite, React and Typescript"
+    "description": "This is an example of connecting extension to browser-based Metamask via PortStream",
+    "message": "This extension is developed with Vite, React and Typescript"
   },
   "extensionName": {
-    "description": "Extension name",
-    "message": "Chrome extension boilerplate"
+    "description": "Extension-as-a-Dapp",
+    "message": "Extension as a Dapp"
   },
   "toggleTheme": {
     "message": "Toggle theme"

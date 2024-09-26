@@ -16,9 +16,10 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "webextension-polyfill": "^0.12.0",
     "@extension/shared": "workspace:*",
-    "@extension/storage": "workspace:*"
+    "@extension/storage": "workspace:*",
+    "vitest": "^2.0.5",
+    "webextension-polyfill": "^0.12.0"
   },
   "devDependencies": {
     "@extension/dev-utils": "workspace:*",

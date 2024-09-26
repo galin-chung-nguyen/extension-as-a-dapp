@@ -1,1 +1,4 @@
+pnpm prettier
+pnpm lint:fix
 pnpm dlx lint-staged --allow-empty
+pnpm type-check

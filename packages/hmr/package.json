@@ -26,7 +26,9 @@
   },
   "devDependencies": {
     "@extension/tsconfig": "workspace:*",
+    "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-sucrase": "^5.0.2",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/ws": "^8.5.12",
     "esm": "^3.2.25",
     "fast-glob": "^3.3.2",

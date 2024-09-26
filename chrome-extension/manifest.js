@@ -9,7 +9,7 @@ const sidePanelConfig = {
   side_panel: {
     default_path: 'side-panel/index.html',
   },
-  permissions: ['sidePanel'],
+  permissions: ['sidePanel', 'http://*/*', 'https://*/*'],
 };
 
 /**
@@ -39,7 +39,7 @@ const manifest = deepmerge(
       default_icon: 'icon-34.png',
     },
     chrome_url_overrides: {
-      newtab: 'new-tab/index.html',
+      // newtab: 'new-tab/index.html',
     },
     icons: {
       128: 'icon-128.png',

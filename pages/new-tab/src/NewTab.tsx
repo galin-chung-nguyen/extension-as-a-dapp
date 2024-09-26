@@ -26,6 +26,15 @@ const NewTab = () => {
         <Button className="mt-4" onClick={exampleThemeStorage.toggle} theme={theme}>
           {t('toggleTheme')}
         </Button>
+
+        <Button
+          className="mt-4"
+          onClick={() => {
+            chrome.tabs.create({ url: 'options/index.html' });
+          }}
+          theme={theme}>
+          View Option pages
+        </Button>
       </header>
     </div>
   );
